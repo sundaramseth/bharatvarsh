@@ -1,0 +1,38 @@
+<div class="container">
+
+
+    <div class="row">
+
+        <div class="col-8 p-5">
+            <div  *ngFor="let data of techHeadlinesData" class="card mb-3" style="width: 100%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="{{data.urlToImage}}" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">{{data.title}}</h5>
+                      <p class="card-text">{{data.content}}</p>
+                      <p class="card-text"><small class="text-body-secondary">{{data.author}}</small></p>
+                      <a href="{{data.url}}" class="btn btn-primary"   style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Read More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-4 p-5">
+            <h3>Globe Technology</h3>
+            <hr>
+
+            <div *ngFor="let data of techHeadlinesData2" class="card" style="width: 18rem; margin-bottom: 8px;">
+                <img src="{{data.urlToImage}}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">{{data.title}}</p>
+                  <a href="{{data.url}}"  class="btn btn-outline-info"  style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">Read more</a>
+                </div>
+              </div>
+
+        </div>
+
+    </div>
+</div>

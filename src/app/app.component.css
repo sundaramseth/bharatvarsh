@@ -1,0 +1,32 @@
+.nav{
+    font-size: 16px;
+    font-weight: 500;
+    background: hsla(11,100%,62.2%,1);
+}
+
+.icon{
+    font-size: 36px; 
+    font-weight: 700;
+    font-family: 'Yatra One', cursive;
+}
+
+.nav-link{
+    color: #ffffff !important;
+}
+
+.nav-link:hover{
+    background-color: #0000002b;
+}
+
+
+.date{
+    padding: 10px;
+    background: #e7e7e7;
+    font-weight: 500;
+    font-size: 14px;
+    color: #6c6c54;
+}
+
+.text-right{
+    text-align: right;
+}
