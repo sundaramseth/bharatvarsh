@@ -18,7 +18,7 @@ export class NewsapiService {
 
   worldTopTechHeadline = 'https://newsapi.org/v2/everything?q=technology&apiKey=6a37fa5f3d8c4faf83a68ccce08cb51d'
 
-  topIndiaHeadline = 'https://newsapi.org/v2/everything?domains=hindustantimes.com,thetimes.co.uk, &apiKey=6a37fa5f3d8c4faf83a68ccce08cb51d'
+  topIndiaHeadline = 'https://newsapi.org/v2/everything?domains=hindustantimes.com,thetimes.co.uk&apiKey=6a37fa5f3d8c4faf83a68ccce08cb51d'
 
   topSportsHeadline = 'https://newsapi.org/v2/everything?sources=bbc-sport&apiKey=6a37fa5f3d8c4faf83a68ccce08cb51d'
 
